@@ -12,6 +12,8 @@ jobs:
 
       - name: Run a one-line script
         run: echo Hello, world!
+        
+      - run: gh issue create --title "Der Heinz" --body "Thank you for creating a lot of work!"
 
   second-job:
     runs-on: ubuntu-latest
